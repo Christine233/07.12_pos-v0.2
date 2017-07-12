@@ -34,7 +34,7 @@ function printReceipt(inputs) {
                     commArr[counter-1].price = inputArr[j].price;
                 }
             }
-            i += parseInt(commArr[counter-1].count);
+            i += commArr[counter-1].count;
         }
         return commArr;
     }
