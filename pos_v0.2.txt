@@ -1,18 +1,3 @@
-﻿Q：https://github.com/tws-practice/pos/tree/master/pos_v0.2
-
-
-
-
-
-
-
-
-
-
-
-
-
-A：
 #1. 将传入的barcode 和原清单联系起来 , 得到用户用户购买物品的详细清单，并计算商品数量
 （调用loadAllItems()方法得到商店商品清单 inputsArr : [Object];）                                           
 输入：inputs :  [String] ;      inputsArr : [Object];
