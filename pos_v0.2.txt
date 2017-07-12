@@ -1,0 +1,48 @@
+﻿Q：https://github.com/tws-practice/pos/tree/master/pos_v0.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+A：
+#1. 将传入的barcode 和原清单联系起来 , 得到用户用户购买物品的详细清单，并计算商品数量
+（调用loadAllItems()方法得到商店商品清单 inputsArr : [Object];）                                           
+输入：inputs :  [String] ;      inputsArr : [Object];
+输出：commArr：[{
+		barcode : String ;
+		name : String ;
+		unit : String ;
+		price : Number ;
+		count : Number ;
+}] 
+// 15min
+
+#2. 计算商品“小计”钱数                                                                                                                       
+输入： commArr :  [Object] ;
+输出： commObjArr : [{
+		barcode : String ;
+		name : String ;
+		unit : String ;
+		price : Number ;
+		count : Number ;
+		sum : number ;
+	}]
+// 5min
+
+#3. 计算商品“总计”钱数                                                                                                                      
+输入： commObjArr : [Object] ;
+输出：totalNum : number
+// 5min
+
+#4. 打印输出清单                                                                                                                                       
+输入： commObjArr : [Object]；     totalNum : number ;
+输出：list : [String]；
+ // 15min
