@@ -9,10 +9,8 @@ function printReceipt(inputs) {
 
     // 计算数量
     function calCount(inputList) {
-        var flag = 0;
         for (let i = 0; i < inputList.length;){
             var countNum = 0;
-            flag += 1;
             for(let j = 0 ; j < inputList.length; j++) {
                 if(inputList[i] == inputList[j]) {
                     countNum ++;
